@@ -20,7 +20,7 @@ import google_write
 if __name__ ==  "__main__":
 
 
-    l = raw_input().split()
+#    l = raw_input().split()
 
     today = datetime.date.today()
 
@@ -34,13 +34,13 @@ if __name__ ==  "__main__":
     h = review_calculator.Day_Plus_84(today)
 
 
-    google_write.insert_event(l[0], l[1], a)
-    google_write.insert_event(l[0], l[1], b)
-    google_write.insert_event(l[0], l[1], c)
-    google_write.insert_event(l[0], l[1], d)
-    google_write.insert_event(l[0], l[1], e)
-    google_write.insert_event(l[0], l[1], f)
-    google_write.insert_event(l[0], l[1], g)
-    google_write.insert_event(l[0], l[1], h)
+#    google_write.insert_event(l[0], l[1], a)
+#    google_write.insert_event(l[0], l[1], b)
+#    google_write.insert_event(l[0], l[1], c)
+#    google_write.insert_event(l[0], l[1], d)
+#    google_write.insert_event(l[0], l[1], e)
+#    google_write.insert_event(l[0], l[1], f)
+#    google_write.insert_event(l[0], l[1], g)
+#    google_write.insert_event(l[0], l[1], h)
 
 
