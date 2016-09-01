@@ -50,7 +50,7 @@ def Day_Plus_14(a):
     print day_plus_14
     return day_plus_14
 
-# 一週間後
+# 三週間後
 def Day_Plus_21(a):
 
     day_plus_21 =  a  + datetime.timedelta(days=21)
